@@ -118,11 +118,12 @@ async function controlAddRecipe(newRecipe) {
     console.error('****', err);
     addRecipeView.renderError(err.message);
   }
-  function hi() {
-    console.log('Hello World Wide Web!');
-  }
+  
 };
 
+function hi() {
+  console.log('Hello World Wide Web!');
+}
 
 function init() {
   bookmarksView.addHandlerRender(controlBookmarks);
