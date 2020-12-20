@@ -118,6 +118,9 @@ async function controlAddRecipe(newRecipe) {
     console.error('****', err);
     addRecipeView.renderError(err.message);
   }
+  function hi() {
+    console.log('Hello World Wide Web!');
+  }
 };
 
 
@@ -129,6 +132,7 @@ function init() {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  hi();
 };
 
 init();
