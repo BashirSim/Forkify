@@ -26,7 +26,7 @@ function createRecipeObject(data) {
         cookingTime: recipe.cooking_time,
         ingredients: recipe.ingredients,
         /*
-        This is a trick to add condtionally properties to an object:
+         This is a trick to add condtionally properties to an object:
          The && operator shot circuit and the first valuse is 
          falsy value so the first condtion is ignored, if there 
          is an object then the second contion is returnd. 
